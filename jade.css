@@ -1,8 +1,8 @@
 /*
  * @author Michael Lohr
  * Student ID 21310937
- * 9/17/21
- * Module 7.2 assignment
+ * 10/4/21
+ * BioSite Project
  */
 /* GENERAL STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -95,12 +95,6 @@ header a:hover, .about a:hover {
   box-shadow: 0 8px whitesmoke;
 }
 
-header a:active, .about a:active {
-  box-shadow: 0 4px whitesmoke;
-  -webkit-transform: translateY(4px);
-      -ms-transform: translateY(4px);
-          transform: translateY(4px);
-}
 
 #image-gallery {
   display: grid;
@@ -119,14 +113,6 @@ header a:active, .about a:active {
 img {
   width: 400px;
   height: 350px;
-}
-
-/* HOBBIES STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.hobbies {
-text-align: center;
-display: block;
 }
 
 
@@ -245,7 +231,9 @@ nav a {
 .about ul {
   margin-bottom:18px;
 }
-
+.image {
+  display: grid;
+}
 
 
 
@@ -266,6 +254,7 @@ nav a {
     padding: 7px;
     border-right: 1px solid #89CFF0;
     width: 80px;
+    border-radius: 10px;
   }
 
  
@@ -278,12 +267,6 @@ nav a {
     box-shadow: 0 8px whitesmoke;
   }
 
-  header a:active, .about a:active {
-    box-shadow: 0 4px whitesmoke;
-    -webkit-transform: translateY(4px);
-        -ms-transform: translateY(4px);
-            transform: translateY(4px);
-  }
 
   #image-gallery {
     display: grid;
@@ -303,8 +286,11 @@ img {
     width: 400px;
     height: 350px;
 }
-
+.places {
+  display:inline-block;
+}
 .hobbies {
-  text-align: center;
   display: block;
+  margin-left: 400px;
+  margin-right: 400px;
 }
